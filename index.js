@@ -115,13 +115,13 @@ app.post('/signup', function(req, res) {
 
 });
 
-// app.get('/home', function(req, res) {
-//   models.us.findAll().then(function(posts) {
-//     res.render('home', {
-//       name: req.session.username
-//     })
-//   })
-// })
+app.get('/home', function(req, res) {
+  models.user.findAll().then(function(posts) {
+    res.render('home', {
+      name: req.session.username
+    })
+  })
+});
 
 app.get('/logout', function(req, res) {
   req.session.destroy(function(err) {})
