@@ -1,0 +1,20 @@
+/*
+Theme Name: LaunchBase
+Theme URI: #
+Author: Rashard Murdock
+Author URI: https://wordpress.org/
+Description: Rashard
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+svg{display: none;}
+.tel{color: #7F8289;}
+.entry-title{padding-top: 20px; padding-bottom: 10px; border-bottom: 1px solid rgb(200, 200, 200);}
