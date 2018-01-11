@@ -54,7 +54,7 @@ insertIntoTable(tablename) {
       validate: true
     }).catch(errors => {
       console.log(errors)
-      //callback();
+
     })
   });
 }

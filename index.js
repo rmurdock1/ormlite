@@ -36,15 +36,6 @@ app.get('/find', function(req, res){
     });
   });
 });
-// app.get('/id/:id', function (req, res) {
-//   User.findById(req.params.id, function (data) {
-//     if (!err) {
-//       res.render('/find', {});
-//     } else {
-//       return console.log(err);
-//     }
-//   });
-// });
 
 app.get('*', function(req, res){
   res.status(404).send('page not found!');
