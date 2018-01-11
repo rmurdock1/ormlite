@@ -32,7 +32,7 @@ app.get('/find', function(req, res){
   User.findById(req.params.id,function(data){
     console.log(data);
     res.render('find',{
-       data: data [1]
+       data: data [0]
     });
   });
 });
