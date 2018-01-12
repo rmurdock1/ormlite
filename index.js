@@ -29,7 +29,8 @@ app.get('/', function(req, res){
 });
 
 app.get('/find', function(req, res){
-  User.findById(req.params.id,function(data){
+  console.log(req.query);
+  User.findById(req.query.id,function(data){
     console.log(data);
     res.render('find',{
        data: data [0]

@@ -76,6 +76,7 @@ insertIntoTable(tablename) {
         id: id
       }
     }).then(function(rows) {
+      console.log(rows);
        var data = [];
        for(var i = 0; i < rows.length; i++) {
          data.push(rows[i].dataValues);
